@@ -1,0 +1,17 @@
+.result{
+    margin: 5% 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.result-heading{
+    color: var(--White);
+}
+.result-amount{
+    color:var(--Strong-cyan);
+    align-self: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+.sm{
+    font-size: 0.7em;
+}

@@ -10,7 +10,7 @@
 }
 * {
   box-sizing: border-box;
-  /* font-family: "Space Mono", sans-serif; */
+  font-family: "Space Mono", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -40,7 +40,7 @@ body {
   height: 80%;
   margin: 10px 20px;
   display: grid;
-  grid-template-rows: 30% 30% 40%;
+  grid-template-rows: 25% 25% 50%;
 }
 .reset-button{
   display: flex;
@@ -51,6 +51,7 @@ body {
   border-radius: 5px;
   background-color: var(--Strong-cyan);
   width: 90%;
-  height: 50%;
+  height: 40%;
   border: 0;
+  margin-top: 5%;
 }
