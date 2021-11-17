@@ -21,10 +21,10 @@ function App() {
         <div className="calc-output">
           <div className="calc-output-body">
             <div className="amt-per-person">
-              <Result />
+              <Result amount="0.00" title="Tip Amount"/>
             </div>
             <div className="amt-total">
-              <Result />
+              <Result amount="0.00" title="Total"/>
             </div>
             <div className="reset-button">
               <button class="btn reset-btn" type="button">

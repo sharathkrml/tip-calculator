@@ -1,14 +1,14 @@
 import React from 'react'
 import './Result.css'
-function Result() {
+function Result(props) {
     return (
         <div className="result">
             <div className="result-heading">
-                <p>Tip Amount</p>
+                <p>{props.title}</p>
                 <p className="sm">/ person</p>
             </div>
             <div className="result-amount">
-                $4.27
+                ${props.amount}
             </div>
         </div>
     )

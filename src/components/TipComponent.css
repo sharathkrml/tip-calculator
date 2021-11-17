@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: repeat(3, 33%);
-  gap: 10px;
+  gap: 15px 10px;
   padding: 10px 0;
 }
 .tip-button {
@@ -23,7 +23,6 @@
   text-align: right;
   width: 100%;
   border: 0;
-  font-size: 24px;
 }
 .custom-input::placeholder {
   font-size: 18px;

@@ -3,7 +3,7 @@ import "./TipComponent.css";
 function TipComponent() {
   return (
     <div className="tip">
-      <p>Select Tip %</p>
+      <p className="input-title">Select Tip %</p>
       <div className="tip-grid">
         <button className="tip-button">5%</button>
         <button className="tip-button">10%</button>
