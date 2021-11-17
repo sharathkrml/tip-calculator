@@ -31,7 +31,52 @@
   font-weight: 700;
 }
 
-.active{
+.active {
   background-color: var(--Strong-cyan);
   color: var(--Very-dark-cyan);
+}
+
+@media only screen and (min-width: 768px) {
+  .tip-grid {
+    height: 80%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: repeat(3, 33%);
+    gap: 0px 10px;
+    padding: 10px 0;
+  }
+  .tip-button {
+    height: 80%;
+  }
+  .custom-input-div{
+    display: flex;
+  }
+  .custom-input {
+    height: 80%;
+    align-self: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .tip-button {
+    height: 70%;
+  }
+  .custom-input {
+    height: 70%;
+  }
+  .result-amount{
+    font-size: 3em;
+  }
+  .input-div{
+    padding: 20px;
+  }
+  .tip{
+    padding: 20px;
+  }
+  .input-field {
+    padding: 10px;
+  }
+  .input-title{
+    font-size: 1.5em;
+  }
 }

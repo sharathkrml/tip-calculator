@@ -34,3 +34,14 @@
 .zero-input:focus {
   border: 1px solid red !important;
 }
+@media only screen and (min-width: 768px) {
+  .input-sign {
+    left: 13%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .input-sign {
+    width: 20px;
+    left: 14%;
+  }
+}

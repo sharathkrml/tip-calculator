@@ -27,7 +27,7 @@ function TipComponent(props) {
         <button onClick={(e) => {setActive(50,props,e)}} className="tip-button">
           50%
         </button>
-        <div>
+        <div className="custom-input-div">
           <input
             onChange={(e) => props.setInput(e.target.value)}
             className="custom-input"
