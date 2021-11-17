@@ -1,6 +1,9 @@
 import logo from "./assets/images/logo.svg";
 import "./App.css";
 import Result from "./components/Result";
+import InputComponent from "./components/InputComponent";
+import dollarSign from "./assets/images/icon-dollar.svg";
+import personSign from "./assets/images/icon-person.svg";
 
 function App() {
   return (
@@ -10,9 +13,9 @@ function App() {
       </div>
       <div className="calculator-body">
         <div className="calc-input">
-          <div className="bill">bill</div>
+          <InputComponent title="Bill" logo={dollarSign} />
           <div className="tip">tip</div>
-          <div className="no-of-people">no of people</div>
+          <InputComponent title="Number of People" logo={personSign}/>
         </div>
         <div className="calc-output">
           <div className="calc-output-body">
