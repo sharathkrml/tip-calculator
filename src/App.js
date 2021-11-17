@@ -1,7 +1,8 @@
 import logo from "./assets/images/logo.svg";
 import "./App.css";
 import Result from "./components/Result";
-import InputComponent from "./components/InputComponent";
+import BillComponent from "./components/BillComponent";
+import CountComponent from "./components/CountComponent";
 import dollarSign from "./assets/images/icon-dollar.svg";
 import personSign from "./assets/images/icon-person.svg";
 import TipComponent from "./components/TipComponent";
@@ -35,14 +36,14 @@ function App() {
       </div>
       <div className="calculator-body">
         <div className="calc-input">
-          <InputComponent
+          <BillComponent
             input={bill}
             setInput={setBill}
             title="Bill"
             logo={dollarSign}
           />
           <TipComponent setInput={setTipPercent} />
-          <InputComponent
+          <CountComponent
             input={count}
             setInput={setCount}
             title="Number of People"
