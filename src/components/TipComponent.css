@@ -1,0 +1,32 @@
+.tip {
+  margin: 20px 20px;
+}
+.tip-grid {
+  height: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(3, 33%);
+  gap: 10px;
+  padding: 10px 0;
+}
+.tip-button {
+  background-color: var(--Very-dark-cyan);
+  border: 0;
+  font-size: 24px;
+  color: var(--White);
+  align-self: center;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.custom-input {
+  height: 100%;
+  text-align: right;
+  width: 100%;
+  border: 0;
+  font-size: 24px;
+}
+.custom-input::placeholder {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+}

@@ -4,6 +4,7 @@ import Result from "./components/Result";
 import InputComponent from "./components/InputComponent";
 import dollarSign from "./assets/images/icon-dollar.svg";
 import personSign from "./assets/images/icon-person.svg";
+import TipComponent from "./components/TipComponent";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <div className="calculator-body">
         <div className="calc-input">
           <InputComponent title="Bill" logo={dollarSign} />
-          <div className="tip">tip</div>
+          <TipComponent/>
           <InputComponent title="Number of People" logo={personSign}/>
         </div>
         <div className="calc-output">
