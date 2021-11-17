@@ -8,9 +8,21 @@
   text-align: right;
   border-radius: 5px;
 }
+.input-field:focus{
+  border:1px solid var(--Light-cyan);
+}
 .input-sign {
   position: absolute;
   left: 20px;
   margin: 10px 10px;
   width: 12px;
+}
+
+.input-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.red-flag{
+  color:rgba(255,0,0,0.7);
+  display: none;
 }
